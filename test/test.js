@@ -260,17 +260,17 @@ describe('Test de funciones: ', function() {
 
     describe('Check function cantidadParesHasta', function(){
       it('TestCase cantidadParesHasta: ', function() {
-         result = cantidadParesHasta(10)
+         result = cantidadDeParesHasta(10)
           expect(result).to.equal(5);
       })
       
       it('cantidadParesHasta(20): ', function() {
-        result = Concatenar(20)
+        result = cantidadDeParesHasta(20)
          expect(result).to.equal(10);
       })
 
       it('cantidadParesHasta(1): ', function() {
-        result = cantidadParesHasta(1)
+        result = cantidadDeParesHasta(1)
          expect(result).to.equal(0);
       })
     })

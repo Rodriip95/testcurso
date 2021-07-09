@@ -1,6 +1,6 @@
 function Sumar (a, b){
     //Devuelve la suma entre a y b
-    return null
+    return a+ b
 }
 
 function Restar (a, b){

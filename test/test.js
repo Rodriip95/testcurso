@@ -56,7 +56,7 @@ describe('Test de funciones: ', function() {
 
     describe('Check function esMayor', function(){
       it('TestCase esMayor: ', function() {
-         result = esMaypor(18)
+         result = esMayor(18)
           expect(result).to.equal(true);
       })
       
@@ -83,7 +83,7 @@ describe('Test de funciones: ', function() {
       })
 
       it('esHashtag(#): ', function() {
-        result = esHash("#")
+        result = esHashtag("#")
          expect(result).to.equal(true);
       })
     })
@@ -235,8 +235,8 @@ describe('Test de funciones: ', function() {
          expect(result).to.equal("*JS*");
       })
 
-      it('palabraEspecial("*hola*"): ', function() {
-        result = palabraEspecial("")
+      it('palabraEspecial("*hola"): ', function() {
+        result = palabraEspecial("*hola")
          expect(result).to.equal("*hola*");
       })
     })
